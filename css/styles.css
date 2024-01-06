@@ -16,12 +16,17 @@ body {
     margin: 0 auto;
     width: 1158px;
     padding: 0 15px; 
-    /* display: flex;  */
 }
 
 .cont-header {
     display: flex;
     align-items: center;
+}
+
+.header-nav {
+    align-items: center;
+    display: flex;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -36,10 +41,17 @@ body {
     margin-right: 76px; 
 }
 
-.header-nav {
-    align-items: center;
-    display: flex;
-    margin-right: auto;
+.my-class-link {
+    color: #2E2F42;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.02em;
+    padding: 24px 0 24px;
+    display: block;
 }
 
 .menu {
@@ -58,11 +70,9 @@ body {
     font-size: 22px;
 }
 
-
 .my-list {
     display: flex;
     gap: 40px; 
-
 }
 
  .my-link {
@@ -74,7 +84,6 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-
 
 a {
     text-decoration: none;
@@ -94,20 +103,6 @@ ul {
     color: #2e2f42;
 }
 
-.my-class-link {
-    color: #2E2F42;
-    line-height: 1.5;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
-    letter-spacing: 0.02em;
-    padding: 24px 0 24px;
-    display: block;
-
-}
-
 .my-class-link:hover {
     color: #404bbf;
 }
@@ -118,19 +113,14 @@ ul {
 
 .addresses {
     font-style: normal;
-
     gap: 40px;
-
     font-size: 22px;
 }
 
-.my-class {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+.section-one {
+    padding: 188px 0; 
+    background-color: #2e2f42;
+    color: #fff;     
 }
 
 .my-link:hover {
@@ -141,30 +131,17 @@ ul {
     color: #404bbf;
 }
 
-.section-one {
-    padding: 188px 0; 
-    background-color: #2e2f42;
-    color: #fff;     
-    /* width: 1440px;
-    margin: 0 auto; 
-    height: 600px; */
-}
-
-
 h1 {
     color: #FFF;
     text-align: center;
     max-width: 496px;
-    /* height: 120px; */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
-    letter-spacing: 1.12px; 
-    
+    letter-spacing: 1.12px;    
 }
-
 
 .title-container {
     display: block;
@@ -173,7 +150,6 @@ h1 {
     align-items: center; 
 }
     
-
 .my-title {
     font-size: 56px;
     line-height: 1.07;
@@ -241,13 +217,6 @@ h2 {
     margin-right: 0;
 }
 
-
-/* .strategy-container {
-    gap: 24px;   
-    width: 1128px;
-    height: 104px;   
-} */
-
 h3 {
     color: #2E2F42;
     font-family: Roboto;
@@ -267,16 +236,12 @@ p {
     margin: 0;   
 }
 
-
 .title-two {
     margin-bottom: 8px;
 }
 
-
-
 .my-item {
     line-height: 1.5;  
-
 }
 
 .section-three {
@@ -298,14 +263,11 @@ p {
 
 .cont-hero-three {
     padding: 32px 0;
-
 }
 
 .my-section-three {
-    /* background-color: #FFFFFF; */
     gap: 24px; 
     display: flex; 
-    /* padding: 32px 0; */
 }
 
 .my-hero {
@@ -324,20 +286,12 @@ p {
   margin: 0;
 }
 
-
 .section-three-item {
     text-align: center;
     color: #2e2f42; 
     line-height: 1.11;  
     text-transform: capitalize;
 }
-
-/* .cont-hero {
-    padding: 32px 16px;
-
-    border: 1px solid #e7e9fc;
-    border-top: none;    
-} */
 
 .section-three-name {
     line-height: 1.2;
@@ -350,7 +304,7 @@ p {
     line-height: 1.5;
     text-align: center; 
 }
-/* ins */
+
 .section-four {
     padding-top: 120px; 
     padding-bottom: 120px; 
@@ -359,21 +313,7 @@ p {
 .title-four {
     margin-bottom: 72px;
     text-align: center;
-    /* width: 218px
-    margin-top: 1868px
-    height: 40px
-    /* border: 0 1440px; */
-    
-    /* margin-left: 611px */
-
-
 }
-
-/* .portfolio {
-    display: column;
-} */
-
-
 
 .my-section-four {
     display: flex;
@@ -381,15 +321,12 @@ p {
     gap: 24px; 
     row-gap: 48px; 
     margin: 0;
-    /* margin-top: 10px; */
-    /* box-sizing: border-box     */
 }
 
 .my-port {
     width: calc((100% - 48px) / 3); 
 }
 
-/* последнее */
 .cont-port {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -404,7 +341,7 @@ p {
 .four-cont {
     flex-direction: column;
 }
-/* problem */
+
 .header-link-footer {
     display: inline-block;
     margin-bottom: 16px;    

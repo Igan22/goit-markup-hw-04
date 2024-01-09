@@ -55,6 +55,8 @@ body {
     letter-spacing: 0.02em;
     padding: 24px 0 24px;
     display: block;
+    position: relative;
+    color: #404bbf; 
 }
 
 .menu {
@@ -63,8 +65,7 @@ body {
 }
 
 .my-menu {
-    position: relative;
-    color: #404bbf; 
+    
 }
 
 .addresses {

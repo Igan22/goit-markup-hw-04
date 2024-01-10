@@ -316,9 +316,9 @@ p {
     gap: 24px;
 }
 
-.my-social-media {
-    /* width: 40px;
-    height: 40px;  */
+.my-social-link {
+    width: 40px;
+    height: 40px; 
 
 }
 
@@ -332,7 +332,13 @@ p {
     
 }
 
+.my-social-media:hover {
+    background-color: #404bbf;
+}
 
+.my-social-media:focus {
+    background-color: #404bbf;
+} 
 
 h1,
 h2,

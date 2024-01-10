@@ -191,7 +191,7 @@ h1 {
     border: none; 
     border-radius: 4px;
     gap: 48px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .my-button:hover {
@@ -201,6 +201,7 @@ h1 {
 
 .my-button:focus {
     background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .section-two {
@@ -237,6 +238,16 @@ h2 {
     width: calc((100% - 72px) / 4);
     margin-left: o;
     margin-right: 0;
+}
+
+.our-strategy {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd; 
+    border-radius: 4px; 
+    margin-bottom: 8px;
 }
 
 h3 {

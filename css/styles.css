@@ -477,6 +477,15 @@ p {
     padding: 100px 0;
 }
 
+.my-foot {
+    display: flex; 
+    align-items: baseline; 
+}
+
+.footer-item {
+    margin-right: 120px;
+}
+
 .footer-item {
     line-height: 1.5;
     color: #F4F4FD;
@@ -486,6 +495,20 @@ p {
 
 .heater-logo-span-foot {
     color: #f4f4fd;
+}
+
+.footer-social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px; 
 }
 
 img {

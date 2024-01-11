@@ -511,6 +511,11 @@ p {
     gap: 16px; 
 }
 
+.footer-social-media-list{
+    width: 40px;
+    
+}
+
 img {
     display: block;
 }

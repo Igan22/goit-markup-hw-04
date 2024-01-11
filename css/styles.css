@@ -345,11 +345,11 @@ p {
     
 }
 
-.my-social-media:hover {
+.my-social-item:hover {
     background-color: #404bbf;
 }
 
-.my-social-media:focus {
+.my-social-item:focus {
     background-color: #404bbf;
 } 
 

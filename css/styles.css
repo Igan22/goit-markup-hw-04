@@ -314,7 +314,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* fill: #f4f4fd; */
+
 }
 
 .my-social-link {
@@ -332,7 +332,8 @@ p {
 
 .my-social-item {
     width: 40px;
-    height: 40px;     
+    height: 40px; 
+    fill: #f4f4fd;    
 }
 
 .my-social-media {

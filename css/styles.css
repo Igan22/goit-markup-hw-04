@@ -482,14 +482,33 @@ p {
 
 .footer-item {
     margin-right: 120px;
-}
-
-.footer-item {
     line-height: 1.5;
     color: #F4F4FD;
-    margin: 0; 
-    width: 264px;   
 }
+
+/* .footer-item {
+
+
+    width: 264px;   
+} */
+
+
+.footer-logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* margin-right: 76px;  */
+}
+
+
+
+
+
 
 .heater-logo-span-foot {
     color: #f4f4fd;

@@ -544,6 +544,11 @@ p {
     /* background-color: #31d0aa; */
 }
 
+.my-footer-life {
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .my-footer-life:hover {
     background-color: #31d0aa; 
 
@@ -556,3 +561,6 @@ p {
 img {
     display: block;
 }
+
+
+

@@ -574,7 +574,7 @@ p {
 
 
 .my-footer-life:hover {
-    background-color: #31d0aa; 
+    transition: background-color #31d0aa; 
 
 }
 

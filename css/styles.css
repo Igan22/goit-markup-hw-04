@@ -430,12 +430,16 @@ p {
 }
 
 .section-four-name:hover {
-    transform: translateY(0%);
+
 }
 
 .my-pictures {
     position: relative;
     overflow: hidden; 
+}
+
+.my-pictures:hover {
+    transform: translateY(0%);
 }
 
 .my-paragr {

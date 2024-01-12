@@ -429,14 +429,15 @@ p {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-..my-port:hover .my-paragr {
+.my-pictures {
+    position: relative;
+    overflow: hidden; 
+}
+
+.my-port:hover .my-paragr {
     transform: translateY(0%);
 }
 
-.my-port:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-
-}
 
 
 .cont-port {
@@ -461,10 +462,7 @@ p {
 
 }
 
-.my-pictures {
-    position: relative;
-    overflow: hidden; 
-}
+
 
 .section-four-item:hover {
     transform: translateY(0%);

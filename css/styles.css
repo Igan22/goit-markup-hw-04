@@ -438,7 +438,9 @@ p {
     transform: translateY(0%);
 }
 
-
+..my-port:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);   
+}
 
 .cont-port {
     padding: 32px 16px;
@@ -449,9 +451,9 @@ p {
     overflow: hidden; */
 }
 /* вниз 4? */
-.my-section-four:hover {
+/* .my-section-four:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-}
+} */
 
 .section-four-name {
     line-height: 1.2;
